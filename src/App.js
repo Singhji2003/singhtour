@@ -4,7 +4,7 @@ import Places from "./component/Places";
 import Explore from "./component/Explore";
 import Experience from "./component/Experience";
 import Footer from "./component/Footer";
-
+import './App.css'
 function App() {
   return (
    <>

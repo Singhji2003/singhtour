@@ -21,6 +21,7 @@ display: none;
     font-family:system-ui;
     color: #38404f;
     font-weight: 500;
+    margin-left: 10px;
     width: 500px;
 }
 .main-color{
