@@ -214,4 +214,17 @@
         width: 200px;
         margin-left: 27vw;
     }
+    .home {
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .home img {
+        margin-left: 27vw;
+    }
+    .content-home {
+        margin-left: 31px;
+        margin-top: 16px;
+        text-align: center;
+        width: 308px;
+    }
 }
