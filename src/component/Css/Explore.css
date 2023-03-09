@@ -1,0 +1,31 @@
+.explore h1{
+    margin:50px 0px 20px 0px;
+    margin-left: 30px;
+    color: rgb(31, 29, 29);
+}
+.explore-item{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #62637c;
+    width: 220px;
+    /* margin-left: 20px; */
+    color: #62637c;
+    height: 180px;
+    justify-content: center;
+    text-align: center;
+}
+.explore-item img{
+    margin-left: 70px;
+    position: absolute;
+    margin-bottom: 10px;
+}
+.explore-item h4{
+    margin-top: 110px;
+}
+.explores{
+    display: flex;
+    justify-content: space-evenly;
+}
+.explore-item img:hover{
+    zoom: 1.1;
+}

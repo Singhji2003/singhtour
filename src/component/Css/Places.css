@@ -1,0 +1,51 @@
+.tour-item img{
+    width: 100px;
+}
+
+.places h1{
+    margin:50px 0px 20px 0px;
+    margin-left: 20px;
+    color: rgb(31, 29, 29);
+}
+.places{
+    margin-left: 20px;
+    cursor: pointer;
+}
+.place h3{
+    color: #282525;
+}
+ .each_place{
+    width: max-content;
+}
+.each_place img:hover{
+    opacity: 0.3;
+}
+.each_place:hover .each_place img{
+    opacity: 0.3;
+}
+.each_place:hover button{
+    opacity: 1;
+}
+.each_place button{
+    position: absolute;
+    margin-left: -167px;
+    margin-top: 68px;
+    width: 127px;
+    height: 35px;
+    border-radius: 31px;
+    font-size: 14px;
+    opacity: 0;
+    cursor: pointer;
+    background: none;
+    color: black;
+    border: 2px solid black;
+}
+.each_place button:hover{
+   background-color:  #ff6612;
+   border: none;
+   color: white;
+}
+.place{
+    display: flex;
+    justify-content: space-evenly;
+}

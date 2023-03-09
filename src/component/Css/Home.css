@@ -1,0 +1,28 @@
+
+/* home image left */
+.home img{
+    display: none;
+}
+.uarrow{
+position: absolute;
+margin-left: 5px;
+display: none;
+}
+.home{
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+.content-home {
+    margin-left: 40px;
+    margin-top: 70px;
+}
+.content-home h1{
+    font-size: 47px;
+    font-family:system-ui;
+    color: #38404f;
+    font-weight: 500;
+    width: 500px;
+}
+.main-color{
+    color: #ff6612;
+}
